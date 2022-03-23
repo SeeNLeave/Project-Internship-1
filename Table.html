@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>						
+	<h1>Employee information</h1>
+	<title>Table</title>
+	<link rel="stylesheet" href="table.css">
+</head>
+<body>
+	<p id="demo"></p>
+
+	<center>
+		<table border="4">
+			<thead>  
+				<tr>
+					<th>Full Name:</th>
+					<td><input type="text" name="fname" id="fname"></td> 
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>ID:</th>
+					<td><input type="text" name="ID" id="ID"></td>
+				</tr>
+				
+				<tr id="btna">
+					<td colspan="2"><input type="button" name="button" id="btn" value="Add" onclick="AddRow()"></td>
+					<td colspan="2"><button type="button" onclick="Clear()">Clear</button></td>
+
+
+				</tr>
+			</tbody>
+		</table>
+
+		<table border="4" id="table1">
+			<thead>
+				<tr>
+					<th>Full Name</th>
+					<th>ID:</th>
+					<th>
+						Button:
+					</th>
+				</tr>
+			</thead>
+		</table>
+	</center>
+<script src="list.js">
+</script>
+</body>
+</html>
